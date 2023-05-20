@@ -1,0 +1,8 @@
+body{
+  text-align: center;
+}
+
+button,p {
+  position: absolute;
+  top: 50%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p id="demo"> txt </p>
+  <button type="button" onclick="myFunction()"name="button">
+    click me
+  </button>
+
+  <script type="text/javascript">
+  //  var clr =  ["#ff41ef", "#59e96a","#a28a65","#9c5283","#4fddd4","#1b47ad"];
+    var clr =  ["red", "blue","green","yellow","orange","black"];
+    var i = 0;
+    function myFunction(){
+      i = i < clr.length-1 ? i++ : 0;
+      document.getElementById("demo").innerHTML = clr[i];
+      document.body.style.background = clr[i];
+
+    }
+  </script>
+</body>
+
+</html>
